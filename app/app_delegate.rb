@@ -2,7 +2,7 @@ class AppDelegate
   def applicationDidFinishLaunching(notification)
     buildMenu
     buildWindow
-    show_classes
+    parse_markdown
   end
 
   def buildWindow
@@ -14,10 +14,9 @@ class AppDelegate
     @mainWindow.orderFrontRegardless
   end
 
-  def show_classes
-    class_names = Kernel.constants.select {|cn| cn.match(/mark/i) }.sort
-    out = cmark_markdown_to_html(mdstring, mdstring.length, 0)
-    puts "output: '#{out}'"
+  def parse_markdown
+    html_string = cmark_markdown_to_html(mdstring, mdstring.length, 0)
+    puts "The html is: '#{html_string}'"
   end
 
   def mdstring
