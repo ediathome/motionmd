@@ -1,0 +1,14 @@
+Performing C SOURCE FILE Test HAVE_FLAG_ADDRESS_SANITIZER failed with the following output:
+Change Dir: /Users/ediathome/Documents/Development/motionmd/vendor/cmark/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa7fa/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_aa7fa.dir/build.make CMakeFiles/cmTC_aa7fa.dir/build
+Building C object CMakeFiles/cmTC_aa7fa.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc    -DHAVE_FLAG_ADDRESS_SANITIZER -Werror -faddress-sanitizer -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk   -faddress-sanitizer -o CMakeFiles/cmTC_aa7fa.dir/src.c.o   -c /Users/ediathome/Documents/Development/motionmd/vendor/cmark/build/CMakeFiles/CMakeTmp/src.c
+clang: error: unknown argument: '-faddress-sanitizer'
+clang: error: unknown argument: '-faddress-sanitizer'
+make[1]: *** [CMakeFiles/cmTC_aa7fa.dir/src.c.o] Error 1
+make: *** [cmTC_aa7fa/fast] Error 2
+
+Source file was:
+int main(void) { return 0; }

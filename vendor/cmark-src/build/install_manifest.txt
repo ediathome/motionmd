@@ -1,0 +1,12 @@
+/usr/local/bin/cmark
+/usr/local/lib/libcmark.0.28.3.dylib
+/usr/local/lib/libcmark.dylib
+/usr/local/lib/libcmark.a
+/usr/local/lib/pkgconfig/libcmark.pc
+/usr/local/include/cmark.h
+/usr/local/include/cmark_export.h
+/usr/local/include/cmark_version.h
+/usr/local/lib/cmake/cmark.cmake
+/usr/local/lib/cmake/cmark-release.cmake
+/usr/local/share/man/man1/cmark.1
+/usr/local/share/man/man3/cmark.3
